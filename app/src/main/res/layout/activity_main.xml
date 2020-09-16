@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="235dp"
         android:contentDescription="@string/logo_uja"
+        app:srcCompat="@drawable/iconoheader"
         tools:srcCompat="@drawable/iconoheader" />
 
     <TextView
@@ -26,14 +27,15 @@
     <Button
         android:id="@+id/bt_cambiar_imagen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginBottom="20dp"
+        android:onClick="cambiar_imagen_click"
         android:text="@string/cambiar_imagen" />
 
     <Button
         android:id="@+id/bt_establecer_fondo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:layout_marginBottom="20dp"
         android:text="@string/establecer_fondo" />
 
