@@ -10,7 +10,8 @@
     <ImageView
         android:id="@+id/imagen"
         android:layout_width="match_parent"
-        android:layout_height="235dp"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
         android:contentDescription="@string/logo_uja"
         app:srcCompat="@drawable/iconoheader"
         tools:srcCompat="@drawable/iconoheader" />
