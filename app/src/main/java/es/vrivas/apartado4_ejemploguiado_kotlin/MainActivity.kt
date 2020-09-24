@@ -2,6 +2,7 @@ package es.vrivas.apartado4_ejemploguiado_kotlin
 
 import android.app.WallpaperManager
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -34,7 +35,9 @@ class MainActivity : AppCompatActivity() {
      */
     @Suppress("UNUSED_PARAMETER")
     fun establecer_fondo_click(v: View) {
+        val bitmap: Bitmap =
+            BitmapFactory.decodeResource(resources, R.drawable.isla_kotlin)
         val wpm=WallpaperManager.getInstance(baseContext)
-        wpm.setResource(R.drawable.isla_kotlin)
+        wpm.setBitmap(bitmap)
     }
 }

@@ -38,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginBottom="20dp"
+        android:onClick="establecer_fondo_click"
         android:text="@string/establecer_fondo" />
 
 </LinearLayout>
